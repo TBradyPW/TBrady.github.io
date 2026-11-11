@@ -162,6 +162,24 @@ a:focus-visible, .btn:focus-visible{
 .skill h3{ font-size: 2rem; color: var(--paper); }
 .skill p{ margin: 0; color: var(--muted); font-size: 1.1rem; max-width: 55ch; }
 
+.skill .skill-icon{
+    font-size: 64px;
+    width: 72px;
+    text-align: center;
+    color: var(--sky);
+}
+
+/* ABOUT */
+.about{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 32px 64px;
+    align-items: start;
+}
+
+.about h2{ margin-bottom: 0; }
+.about-text p{ margin: 0 0 1.2em; font-size: 1.2rem; color: var(--muted); max-width: 60ch; }
+
 /* PROJECTS */
 .project-grid{
     display: grid;
@@ -190,6 +208,7 @@ a:focus-visible, .btn:focus-visible{
 }
 
 .project h3{ font-size: 1.4rem; margin-top: 16px; }
+.project p{ margin: 8px 0 0; color: var(--muted); }
 
 /* CONTACT */
 .contact{
@@ -245,6 +264,8 @@ footer p{ margin: 0; font-weight: 600; }
     .skill img{ width: 56px; height: 56px; }
     .skill p{ grid-column: 1 / -1; }
     .hero-foot{ flex-direction: column; align-items: flex-start; }
+    .about{ grid-template-columns: 1fr; }
+    .skill .skill-icon{ font-size: 52px; width: 56px; }
 }
 
 @media (prefers-reduced-motion: reduce){
