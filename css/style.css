@@ -2,7 +2,8 @@
     --ink: #040d2b;       /* dark navy */
     --paper: #fff;        /* white */
     --blue: #1f5eff;      /* main blue */
-    --sky: #5da2ff;       /* light blue accent */
+    --sky: #5da2ff;       /* light blue */
+    --lime: #c6ff3d;      /* lime accent */
     --muted: #b6c3e6;
 }
 
@@ -46,7 +47,7 @@ a:focus-visible, .btn:focus-visible{
     font-family: "Bricolage Grotesque", sans-serif;
     font-weight: 800;
     font-size: 1.6rem;
-    color: var(--sky);
+    color: var(--lime);
     text-decoration: none;
 }
 
@@ -65,7 +66,7 @@ a:focus-visible, .btn:focus-visible{
     transition: color .3s linear;
 }
 
-.site-header nav a:hover{ color: var(--sky); }
+.site-header nav a:hover{ color: var(--lime); }
 
 /* HERO */
 .hero{
@@ -110,13 +111,13 @@ a:focus-visible, .btn:focus-visible{
 
 .btn{
     display: inline-block;
-    background: var(--paper);
+    background: var(--lime);
     color: var(--ink);
     font-weight: 600;
     font-size: 1.05rem;
     text-decoration: none;
     padding: 14px 28px;
-    border: 2px solid var(--paper);
+    border: 2px solid var(--lime);
     border-radius: 999px;
     transition: transform .25s ease, background .25s ease, color .25s ease;
 }
@@ -135,7 +136,7 @@ a:focus-visible, .btn:focus-visible{
     font-size: clamp(2.5rem, 7vw, 5rem);
     font-weight: 800;
     letter-spacing: -0.03em;
-    color: var(--sky);
+    color: var(--lime);
     margin-bottom: 6vh;
 }
 
@@ -166,7 +167,7 @@ a:focus-visible, .btn:focus-visible{
     font-size: 64px;
     width: 72px;
     text-align: center;
-    color: var(--sky);
+    color: var(--lime);
 }
 
 /* ABOUT */
@@ -204,7 +205,7 @@ a:focus-visible, .btn:focus-visible{
 
 .project:hover img{
     transform: translate(-6px, -6px);
-    box-shadow: 8px 8px 0 var(--blue);
+    box-shadow: 8px 8px 0 var(--lime);
 }
 
 .project h3{ font-size: 1.4rem; margin-top: 16px; }
